@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        service: [QuizService, QuestionService, ApiGateway, ServiceRegistry]
+        service: [ QuizService, QuestionService, ApiGateway, ServiceRegistry ]
 
     steps:
       - name: Checkout Code
@@ -33,6 +33,16 @@ jobs:
           cd MicroService-webClient-docker/${{ matrix.service }}
           mvn clean package -DskipTests
           cd ../..
+
+      - name: Check Target Directory for JAR
+        run: |
+          ls -l MicroService-webClient-docker/${{ matrix.service }}/target
+
+      - name: Upload JAR File
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ matrix.service }}-jar
+          path: MicroService-webClient-docker/${{ matrix.service }}/target/*.jar
 
   docker-login:
     runs-on: ubuntu-latest
