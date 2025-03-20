@@ -36,7 +36,7 @@ jobs:
 
       - name: Check target directory for JAR
         run: |
-          ls -l MicroService-webClient-docker/ServiceRegistry/target
+          ls -l MicroService-webClient-docker/${{ matrix.service }}/target
 
   docker-login:
     runs-on: ubuntu-latest
@@ -59,7 +59,7 @@ jobs:
           sudo apt-get install -y docker-compose
 
       - name: Run Docker Compose (staging)
-#        if: github.ref == 'refs/heads/staging'
+        #        if: github.ref == 'refs/heads/staging'
         run: |
           cd MicroService-webClient-docker
           docker-compose down -v
@@ -67,7 +67,7 @@ jobs:
           cd ../..
 
       - name: Run Docker Compose (main)
-#        if: github.ref == 'refs/heads/main'
+        #        if: github.ref == 'refs/heads/main'
         run: |
           cd MicroService-webClient-docker
           docker-compose down -v
