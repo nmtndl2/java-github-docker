@@ -208,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742465246265</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="changes in ci-cd.yml">
+      <option name="closed" value="true" />
+      <created>1742465498669</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742465498669</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
