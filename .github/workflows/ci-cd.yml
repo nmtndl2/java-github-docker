@@ -36,13 +36,7 @@ jobs:
 
       - name: Check target directory for JAR
         run: |
-          TARGET_DIR=MicroService-webClient-docker/${{ matrix.service }}/target
-          if [ -d "$TARGET_DIR" ]; then
-            ls -l $TARGET_DIR
-          else
-            echo "Error: Target directory not found or no JAR file generated."
-            exit 1
-          fi
+          ls -l MicroService-webClient-docker/${{ matrix.service }}/target
 
   docker-login:
     runs-on: ubuntu-latest
@@ -68,7 +62,7 @@ jobs:
         if: github.ref == 'refs/heads/staging'
         run: |
           cd MicroService-webClient-docker
-          docker-compose down -v || true
+          docker-compose down -v
           docker-compose up --build -d
           cd ../..
 
@@ -76,6 +70,6 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: |
           cd MicroService-webClient-docker
-          docker-compose down -v || true
+          docker-compose down -v
           docker-compose up --build -d
           cd ../..
