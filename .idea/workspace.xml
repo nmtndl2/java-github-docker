@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8ce96f-e215-4390-900c-0ea3055363c6" name="Changes" comment="changes in ci-cd.yml" />
+    <list default="true" id="de8ce96f-e215-4390-900c-0ea3055363c6" name="Changes" comment="changes in ci-cd.yml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroService-webClient-docker/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/MicroService-webClient-docker/.idea/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +27,12 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/nmtndl2/java-jenkins-docker.git&quot;,
-    &quot;accountId&quot;: &quot;b70f6e33-dec5-4936-90c6-1ca470753e66&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nmtndl2/java-github-docker.git",
+    "accountId": "b70f6e33-dec5-4936-90c6-1ca470753e66"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -56,10 +59,15 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "staging",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Nirmal/GitHub/java-github-docker",
+    "last_opened_file_path": "C:/Nirmal/GitHub/java-github-docker/.idea",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Nirmal\GitHub\java-github-docker\.idea" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
@@ -216,7 +224,79 @@
       <option name="project" value="LOCAL" />
       <updated>1742465498669</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="changes in ci-cd.yml">
+      <option name="closed" value="true" />
+      <created>1742466153032</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1742466153032</updated>
+    </task>
+    <task id="LOCAL-00015" summary="changes in ci-cd.yml">
+      <option name="closed" value="true" />
+      <created>1742466890620</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1742466890620</updated>
+    </task>
+    <task id="LOCAL-00016" summary="changes in ci-cd.yml">
+      <option name="closed" value="true" />
+      <created>1742467260455</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1742467260455</updated>
+    </task>
+    <task id="LOCAL-00017" summary="changes in Dockerfile">
+      <option name="closed" value="true" />
+      <created>1742468700891</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1742468700891</updated>
+    </task>
+    <task id="LOCAL-00018" summary="changes in ci-cd.yml">
+      <option name="closed" value="true" />
+      <created>1742470663909</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1742470663909</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changes in ci-cd.yml">
+      <option name="closed" value="true" />
+      <created>1742471415754</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1742471415754</updated>
+    </task>
+    <task id="LOCAL-00020" summary="changes in ci-cd.yml">
+      <option name="closed" value="true" />
+      <created>1742471836029</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1742471836029</updated>
+    </task>
+    <task id="LOCAL-00021" summary="changes in ci-cd.yml">
+      <option name="closed" value="true" />
+      <created>1742531885545</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1742531885545</updated>
+    </task>
+    <task id="LOCAL-00022" summary="changes in ci-cd.yml">
+      <option name="closed" value="true" />
+      <created>1742531977859</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1742531977859</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -251,6 +331,7 @@
     <MESSAGE value="inline formating in docker-compose.yml" />
     <MESSAGE value="add file ci-cd.yml" />
     <MESSAGE value="changes in workspace.xml" />
+    <MESSAGE value="changes in Dockerfile" />
     <MESSAGE value="changes in ci-cd.yml" />
     <option name="LAST_COMMIT_MESSAGE" value="changes in ci-cd.yml" />
   </component>
